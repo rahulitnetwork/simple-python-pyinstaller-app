@@ -1,5 +1,5 @@
 pipeline {
-    agent none 
+    agent buil-node-aws 
     stages {
         stage('Build') { 
             agent {
